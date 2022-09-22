@@ -8,6 +8,7 @@ const name = "Wakhid Hidayatur Rakhman";
 export const siteTitle = "Next.js My Website";
 
 export default function Layout({ children, home, blogs }) {
+  console.log(children, "children");
   return (
     <div className={styles.container}>
       <Head>
